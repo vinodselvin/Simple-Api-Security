@@ -15,25 +15,33 @@ application/libraries/Authenticator.php
   1) Load Library Authenticator,
 
   ```html
+
   $this->load->library("Authenticator");
+
   ```
 
-  2) If user is valid user set_user param to true, so that library can generate access_token for that user.
+  2) If user is valid user "set_user" param to "true", so that library can generate "access_token" for that user.
 
   ```html
+
   $this->load->library("Authenticator", array("set_user"=> true));
+
   ```
 
   3) To get Access Token, use below code.
 
   ```html
+
   $access_token = $this->authenticator->getAccessToken();
+
   ```
 
-  4) Then for all call use the above generated Access Token, to get access to API, just post or get method with key as `access_token`, example below shows, for get request.
+  4) Then for all call use the above generated Access Token, to get access to API, just "POST" or "GET" method with "key" as "access_token", example below shows, for "GET" request.
 
   ```html
+
   eg. http://your-url/some-controller/?access_token=access_token_generated_at_step_3
+
   ```
 
   5) Cheers! It is working, if it doesn't, then have a coffee and debug :)
