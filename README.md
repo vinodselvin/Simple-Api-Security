@@ -11,6 +11,7 @@ application/libraries/Authenticator.php
 ```
 
 ## How to Use
+Notice: Below Documentation is for Codeigniter, for other libraries, create issue or pull request for ReadMe.md
 
   1) Load Library Authenticator,
 
