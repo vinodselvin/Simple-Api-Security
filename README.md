@@ -38,4 +38,4 @@ application/libraries/Authenticator.php
 
   5) Cheers! It is working, if it doesn't, then have a coffee and debug :)
 
-#### Notice: The Above Documentation is for Codeigniter, for other libraries, create issue or pull request for ReadMe.md
+#### Notice: The Above Documentation is for Codeigniter, for other frameworks, create issue or pull request for ReadMe.md
